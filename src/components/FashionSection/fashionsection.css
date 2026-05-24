@@ -206,6 +206,85 @@
 
 /* CONTINUOUS SCROLL */
 
+@media (max-width: 1100px) {
+  .fashion-section {
+    gap: 40px;
+    padding: 80px 40px;
+  }
+
+  .fashion-content h1 {
+    font-size: 52px;
+  }
+
+  .fashion-content p {
+    font-size: 18px;
+  }
+
+  .brands-track {
+    gap: 80px;
+  }
+
+  .brands-track h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fashion-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 20px;
+  }
+
+  .fashion-image img {
+    height: 450px;
+  }
+
+  .fashion-content h1 {
+    font-size: 42px;
+  }
+
+  .mini-cards {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .brands {
+    padding: 40px 0;
+  }
+
+  .brands-track {
+    gap: 50px;
+  }
+
+  .brands-track h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 520px) {
+  .fashion-section {
+    padding: 40px 16px;
+  }
+
+  .fashion-image img {
+    height: 320px;
+  }
+
+  .fashion-content h1 {
+    font-size: 32px;
+  }
+
+  .fashion-content p {
+    font-size: 16px;
+  }
+
+  .tag {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+}
+
 @keyframes scrollBrands {
 
   from {

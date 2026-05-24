@@ -106,3 +106,43 @@
 .product-card button:hover {
   background-color: #333;
 }
+
+@media (max-width: 1100px) {
+  .collections {
+    padding: 80px 40px;
+  }
+
+  .collection-title {
+    font-size: 46px;
+    margin-bottom: 45px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 680px) {
+  .collections {
+    padding: 60px 20px;
+  }
+
+  .collection-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .product-card {
+    padding: 20px;
+  }
+
+  .product-card img {
+    height: 220px;
+  }
+}

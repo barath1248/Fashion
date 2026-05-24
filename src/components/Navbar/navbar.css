@@ -46,3 +46,33 @@
 .nav-links li:hover {
   color: gray;
 }
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 12px 20px;
+    height: auto;
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links li {
+    font-size: 14px;
+  }
+}

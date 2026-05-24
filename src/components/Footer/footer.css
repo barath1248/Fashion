@@ -1,0 +1,105 @@
+/* FOOTER */
+
+.footer {
+  width: 100%;
+
+  background-color: black;
+
+  color: white;
+
+  padding-top: 80px;
+
+  margin-top: 100px;
+}
+
+
+/* CONTAINER */
+
+.footer-container {
+  display: flex;
+
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+
+  gap: 50px;
+
+  padding: 0 80px 60px;
+
+  box-sizing: border-box;
+}
+
+
+/* SECTION */
+
+.footer-section {
+  max-width: 300px;
+}
+
+
+/* LOGO */
+
+.footer-section h1 {
+  font-size: 45px;
+
+  margin-bottom: 20px;
+}
+
+
+/* HEADINGS */
+
+.footer-section h2 {
+  margin-bottom: 20px;
+
+  font-size: 24px;
+}
+
+
+/* PARAGRAPH */
+
+.footer-section p {
+  color: #bbb;
+
+  line-height: 1.8;
+}
+
+
+/* LIST */
+
+.footer-section ul {
+  list-style: none;
+
+  padding: 0;
+}
+
+
+/* LIST ITEMS */
+
+.footer-section ul li {
+  margin-bottom: 15px;
+
+  color: #bbb;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.footer-section ul li:hover {
+  color: white;
+
+  transform: translateX(8px);
+}
+
+
+/* BOTTOM */
+
+.footer-bottom {
+  border-top: 1px solid #222;
+
+  text-align: center;
+
+  padding: 25px;
+
+  color: #999;
+}

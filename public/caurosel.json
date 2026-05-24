@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "img_src":"/caurosel_1.jpg"
+    },
+    {
+        "id":2, 
+        "img_src":"/caurosel_2.jpg"
+   },
+    {
+        "id":3,
+        "img_src":"/caurosel_3.jpg"
+    }
+]

@@ -179,3 +179,41 @@
   }
 
 }
+
+@media (max-width: 1024px) {
+  .carousel {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    height: 420px;
+  }
+
+  .overlay h1 {
+    font-size: 48px;
+  }
+
+  .overlay p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    height: 280px;
+  }
+
+  .overlay h1 {
+    font-size: 32px;
+  }
+
+  .overlay p {
+    font-size: 16px;
+  }
+
+  .overlay button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
